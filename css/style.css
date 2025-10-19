@@ -169,7 +169,7 @@ header h1 a.logo:hover {
 /* Hover effect */
 .generator-button:hover {
   transform: scale(1.05);    /* slight grow effect */
-  background-color: #0056b3; /* darker blue on hover */
+  background-color: #397a21; /* darker blue on hover */
 }
 
 /* Responsive: smaller screens */
@@ -234,7 +234,7 @@ header h1 a.logo:hover {
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #397a21;
   transform: translateY(-2px);
 }
 
