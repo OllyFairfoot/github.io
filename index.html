@@ -1,19 +1,51 @@
-your-username.github.io/
-│
-├─ index.html          # Main landing page of your portfolio
-├─ README.md           # Optional: info about your repo
-│
-├─ css/
-│   └─ style.css       # All styling
-│
-├─ js/
-│   └─ script.js       # Optional JS
-│
-├─ images/
-│   ├─ profile.jpg     # Your photo
-│   ├─ project1.jpg    # Screenshot for project 1
-│   └─ ...             # More images
-│
-├─ projects/
-│   ├─ project1.html   # Individual project page
-│   └─ project2.html   # Add more as needed
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/profile.jpg" alt="Your Photo" class="profile-pic">
+        <p>Hello! I'm a [developer/designer/etc.] passionate about [skills]. Welcome to my portfolio!</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <a href="projects/project1.html" class="project-card">
+                <img src="images/project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Short description of project 1.</p>
+            </a>
+            <!-- Add more project cards here -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+        <p>LinkedIn: <a href="#">your-linkedin</a></p>
+        <p>GitHub: <a href="#">your-github</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Your Name</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
