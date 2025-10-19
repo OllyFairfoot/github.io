@@ -242,3 +242,6 @@ header h1 a.logo:hover {
   transform: translateY(0);
 }
 
+.spaced {
+  margin-bottom: 2rem; /* adjust spacing as needed */
+}
