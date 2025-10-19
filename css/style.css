@@ -157,7 +157,7 @@ header h1 a.logo:hover {
   font-size: 1.3rem;         /* big, readable text */
   font-weight: bold;          /* makes text stand out */
   border-radius: 10px;        /* slightly rounded corners */
-  background-color: #007bff; /* blue button */
+  background-color: #418c26; /* blue button */
   color: white;               /* white text */
   border: none;               /* remove default border */
   cursor: pointer;
@@ -225,7 +225,7 @@ header h1 a.logo:hover {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.75em 1.5em;
-  background-color: #007bff;
+  background-color: #418c26;
   color: #fff;
   border-radius: 8px;
   text-decoration: none;
