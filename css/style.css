@@ -145,3 +145,15 @@ header h1 a.logo:hover {
     max-width: 80%; /* slightly smaller on mobile */
   }
 }
+
+.image {
+  display: flex;
+  flex-direction: column; /* stack image and button vertically */
+  align-items: center;    /* center both image and button */
+  gap: 15px;              /* space between image and button */
+}
+
+.generator-button {
+  padding: 10px 20px;    /* optional: nicer button size */
+  cursor: pointer;
+}
