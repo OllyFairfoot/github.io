@@ -5,10 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Olly Fairfoot | Projects</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .project-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .project-card {
+      display: block;
+      width: 220px;
+      padding: 1rem;
+      background: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      text-align: center;
+      text-decoration: none;
+      color: #333;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .project-card img {
+      width: 200px;
+      height: auto;
+      margin-bottom: 0.5rem;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Oliver Fairfoot</h1>
+    <h1>Olly Fairfoot</h1>
     <nav>
       <a href="index.html">About</a>
       <a href="projects.html">Projects</a>
@@ -20,11 +51,23 @@
   <main>
     <h2>My Projects</h2>
     <div class="project-list">
-      <a href="projects/project1.html" class="project-card">
-        <h3>Project 1</h3>
-        <p>Short description of your project.</p>
+      
+      <!-- Mood Board Project -->
+      <a href="projects/moodboard.html" class="project-card" target="_blank">
+        <h3>Mood Board</h3>
+        <img src="projects/moodboard/screenshot.png" alt="Mood Board Screenshot">
+        <p>A curated collection of design inspirations and visual ideas.</p>
       </a>
-      <!-- Add more projects here -->
+
+      <!-- Outfit Generator Project -->
+      <a href="projects/outfit-generator/index.html" class="project-card" target="_blank">
+        <h3>Outfit Generator</h3>
+        <img src="projects/outfit-generator/images/T1.png" alt="Outfit Generator Screenshot">
+        <p>Generate random outfits with caps, tops, bottoms, shoes, and accessories!</p>
+      </a>
+
+      <!-- You can add more projects below in the same format -->
+      
     </div>
   </main>
 
