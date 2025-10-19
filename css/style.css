@@ -181,3 +181,43 @@ header h1 a.logo:hover {
   }
 }
 
+/* Mood board section */
+.moodboard-grid {
+  column-count: 3;         /* number of columns on desktop */
+  column-gap: 1rem;        /* space between columns */
+  padding: 0 2rem;
+}
+
+.mood-item {
+  break-inside: avoid;     /* prevents items from breaking across columns */
+  margin-bottom: 1rem;     /* space between items vertically */
+  border-radius: 12px;     /* rounded edges */
+  overflow: hidden;        /* ensures image respects border radius */
+}
+
+.mood-item img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mood-item img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Responsive: fewer columns on smaller screens */
+@media (max-width: 1024px) {
+  .moodboard-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .moodboard-grid {
+    column-count: 1;
+  }
+}
+
