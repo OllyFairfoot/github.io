@@ -110,3 +110,38 @@ header h1 a.logo {
 header h1 a.logo:hover {
   text-decoration: underline;
 }
+
+
+/* Container for text + image */
+.content-wrapper {
+  display: flex;
+  align-items: flex-start; /* aligns text and image at the top */
+  gap: 20px; /* space between text and image */
+  flex-wrap: wrap; /* allows items to wrap on smaller screens */
+}
+
+/* Text section */
+.text {
+  flex: 1; /* text takes remaining width */
+  min-width: 250px; /* prevents text from getting too narrow */
+}
+
+/* Image section */
+.image img {
+  max-width: 300px; /* adjust as needed */
+  width: 100%; /* makes image responsive */
+  height: auto;
+  border-radius: 8px; /* optional styling */
+}
+
+/* Mobile / smaller screens */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column; /* stack text and image vertically */
+    align-items: center; /* center items */
+  }
+
+  .image img {
+    max-width: 80%; /* slightly smaller on mobile */
+  }
+}
