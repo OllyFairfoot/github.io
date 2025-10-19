@@ -9,11 +9,10 @@ body {
 
 /* Header */
 header {
-    background: #228b22;  /* Gradient example */
-    background: linear-gradient(to right, #2fb52f, #076307);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background: linear-gradient(to right, #228B22, #196619); /* true forest green gradient */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 header nav a {
