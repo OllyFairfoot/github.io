@@ -154,6 +154,31 @@ header h1 a.logo:hover {
 }
 
 .generator-button {
-  padding: 10px 20px;    /* optional: nicer button size */
+  padding: 16px 32px;        /* larger, comfortable size */
+  font-size: 1.3rem;         /* big, readable text */
+  font-weight: bold;          /* makes text stand out */
+  border-radius: 10px;        /* slightly rounded corners */
+  background-color: #007bff; /* blue button */
+  color: white;               /* white text */
+  border: none;               /* remove default border */
   cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  width: fit-content;         /* button width fits content */
+  text-align: center;
 }
+
+/* Hover effect */
+.generator-button:hover {
+  transform: scale(1.05);    /* slight grow effect */
+  background-color: #0056b3; /* darker blue on hover */
+}
+
+/* Responsive: smaller screens */
+@media (max-width: 768px) {
+  .generator-button {
+    padding: 14px 24px;       /* slightly smaller padding */
+    font-size: 1.1rem;        /* smaller text */
+    width: 80%;                /* almost full width on mobile */
+  }
+}
+
