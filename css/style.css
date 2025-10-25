@@ -264,3 +264,12 @@ main {
     border-radius: 10px;    /* optional, makes it look cleaner */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* optional subtle shadow */
 }
+
+.project-image {
+    max-width: 400px;   /* makes it smaller but responsive */
+    width: 100%;        /* scales on smaller screens */
+    display: block;     /* allows centering */
+    margin: 10px auto;  /* centers and adds spacing */
+    border-radius: 8px; /* optional — soft corners */
+}
+
