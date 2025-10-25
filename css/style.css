@@ -244,3 +244,12 @@ header h1 a.logo:hover {
 .spaced {
   margin-bottom: 2rem; /* adjust spacing as needed */
 }
+
+ol {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+ol li {
+    margin-bottom: 8px;
+}
