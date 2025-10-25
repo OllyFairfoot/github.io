@@ -1,7 +1,7 @@
 /* General styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+    margin: 10px;
     padding: 40px;  /* ✅ adds space on all sides */
     background: #f5f5f5;
     color: #333;
