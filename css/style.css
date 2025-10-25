@@ -254,3 +254,13 @@ ol {
 ol li {
     margin-bottom: 8px;
 }
+
+
+main {
+    max-width: 900px;       /* keeps content narrow and readable */
+    margin: 0 auto;         /* centers it on the page */
+    background: white;      /* optional — makes it stand out from the background */
+    padding: 20px;          /* internal spacing inside the main area */
+    border-radius: 10px;    /* optional, makes it look cleaner */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* optional subtle shadow */
+}
