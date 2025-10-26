@@ -279,11 +279,11 @@ main {
 
 .video-section video {
     width: 100%;
-    max-width: 640px;        /* controls the video’s maximum size */
+    max-width: 440px;        /* controls the video’s maximum size */
     height: auto;
     border-radius: 8px;     /* rounded edges */
     overflow: hidden;        /* keeps corners clean */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     object-fit: cover;       /* makes sure it scales nicely */
     display: block;
 }
