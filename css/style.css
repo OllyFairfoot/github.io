@@ -268,19 +268,24 @@ main {
         width: 80%;
     }
 }
-.video-section video {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
+
+.video-section {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically (if height set) */
+    padding: 40px 0;
+    text-align: center;
 }
 
-
 .video-section video {
     width: 100%;
-    max-width: 640px;       /* or whatever fits your design */
+    max-width: 640px;        /* controls the video’s maximum size */
     height: auto;
-    border-radius: 20px;    /* rounded edges */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* subtle depth */
-    object-fit: cover;      /* ensures video fills the frame nicely */
+    border-radius: 20px;     /* rounded edges */
+    overflow: hidden;        /* keeps corners clean */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    object-fit: cover;       /* makes sure it scales nicely */
+    display: block;
 }
+
 
