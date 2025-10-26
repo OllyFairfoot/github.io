@@ -266,4 +266,19 @@ main {
         width: 80%;
     }
 }
+.video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.video-section video {
+    width: 100%;
+    max-width: 640px;       /* or whatever fits your design */
+    height: auto;
+    border-radius: 20px;    /* rounded edges */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* subtle depth */
+    object-fit: cover;      /* ensures video fills the frame nicely */
+}
 
