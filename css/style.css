@@ -44,7 +44,7 @@ section {
     margin: 20px auto;
 
     /* Glass effect */
-    background: rgba(255, 255, 255, 0.15); /* transparent white layer */
+    background: rgba(0, 0, 0, 0.3); /* transparent white layer */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
