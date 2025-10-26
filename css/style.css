@@ -3,8 +3,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 10px;
     padding: 40px;
-    background: #1d6e31;
     color: #333;
+
+    /* Background image */
+    background-image: url('your-image.jpg');
+    background-size: cover;        /* makes image fill entire screen */
+    background-repeat: no-repeat;  /* prevents tiling */
+    background-position: center;   /* keeps image centered */
+    background-attachment: fixed;  /* optional: makes image stay fixed when scrolling */
 }
 
 /* Header */
